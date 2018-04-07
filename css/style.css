@@ -1,0 +1,197 @@
+/* Color Palette
+#080f0f -rich  black
+#A4BAB7 - Cambridge Blue
+#EFF2C0 -Pale Spring Bud
+#BEA57D -Pale Taupe
+#A52422x -Red Brown
+*/
+
+
+/* Global Styles*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: ;
+    font-family: 'Contrail One', cursive;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Bungee Inline', cursive;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.legacy img {
+    height: 40%;
+    width: 40%;
+}
+
+a {
+    color: #A52422;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+
+/* .col-top-wide {
+    width: 60%;
+    float: left;
+    min-height: 175px;
+    padding-left: 70px;
+    /* margin-top: 2em; */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Header and Footer*/
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header, footer {
+    background-color: #080F0F;
+    color: grey;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 6px;
+    float: left;
+    padding-right: 20px;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* header */
+
+
+/* navigation*/
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: #080f0f;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header h1, header h2 {
+    color: #BEA57D;
+    margin: 0;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience*/
+
+.work {
+    background-color: #A4BAB7;
+}
+
+h3~p {
+    margin: 0;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+.job-description {
+    margin-bottom: 15px;
+}
+
+
+/*Education*/
+
+.education {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(../images/lsu.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+p+h3 {
+    margin-top: 30px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 900px;
+) {
+    .col-narrow {
+        width: 30%;
+        float: right;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+
+@@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
